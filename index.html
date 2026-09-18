@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Anushka Kolte — AI Developer | Salesforce AI | Agentforce | AI & Automation">
+  <title>Anushka Kolte | AI Developer</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      width: 100%;
+      min-height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      overflow: hidden;
+      color: #f5f7ff;
+      background:
+        radial-gradient(circle at 78% 20%, rgba(88, 92, 255, 0.24), transparent 28%),
+        radial-gradient(circle at 20% 82%, rgba(0, 210, 255, 0.12), transparent 30%),
+        linear-gradient(135deg, #050914 0%, #091225 55%, #10172d 100%);
+      position: relative;
+    }
+
+    /* Subtle circuit/grid background */
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      opacity: 0.16;
+      background-image:
+        linear-gradient(rgba(120, 150, 255, 0.16) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(120, 150, 255, 0.16) 1px, transparent 1px);
+      background-size: 42px 42px;
+      mask-image: linear-gradient(to bottom, transparent 0%, black 18%, black 82%, transparent 100%);
+      pointer-events: none;
+    }
+
+    .glow {
+      position: absolute;
+      width: 240px;
+      height: 240px;
+      border-radius: 50%;
+      filter: blur(65px);
+      opacity: 0.24;
+      background: #5964ff;
+      right: -80px;
+      top: -70px;
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 44px 52px;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+
+    .monogram {
+      width: 54px;
+      height: 54px;
+      border: 1px solid rgba(115, 210, 255, 0.65);
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      color: #ffffff;
+      background: rgba(10, 20, 42, 0.72);
+      box-shadow:
+        0 0 24px rgba(45, 190, 255, 0.16),
+        inset 0 0 20px rgba(85, 100, 255, 0.10);
+      margin-bottom: 30px;
+    }
+
+    .eyebrow {
+      color: #7ddcff;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      margin-bottom: 14px;
+    }
+
+    h1 {
+      font-size: clamp(34px, 5vw, 58px);
+      line-height: 1.02;
+      letter-spacing: -1.8px;
+      margin-bottom: 10px;
+      font-weight: 800;
+    }
+
+    .role {
+      font-size: clamp(17px, 2vw, 22px);
+      font-weight: 600;
+      color: #dce5ff;
+      margin-bottom: 18px;
+    }
+
+    .accent {
+      color: #78ddff;
+    }
+
+    .description {
+      max-width: 560px;
+      color: #aebbd5;
+      font-size: 15px;
+      line-height: 1.7;
+      margin-bottom: 28px;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin-bottom: 30px;
+    }
+
+    .chip {
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(125, 220, 255, 0.22);
+      background: rgba(20, 35, 66, 0.62);
+      color: #dceaff;
+      font-size: 11px;
+      letter-spacing: 0.3px;
+    }
+
+    .line {
+      width: 110px;
+      height: 2px;
+      background: linear-gradient(90deg, #72ddff, #6d73ff, transparent);
+      margin-bottom: 18px;
+    }
+
+    .footer {
+      color: #7f8da8;
+      font-size: 11px;
+      letter-spacing: 0.7px;
+    }
+
+    @media (max-width: 700px) {
+      .content {
+        padding: 34px 28px;
+      }
+
+      .description {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="glow"></div>
+
+  <main class="content">
+    <div class="monogram">AK</div>
+
+    <div class="eyebrow">Salesforce • Artificial Intelligence</div>
+
+    <h1>Anushka Kolte</h1>
+
+    <div class="role">
+      <span class="accent">AI Developer</span> | Salesforce AI & Automation
+    </div>
+
+    <p class="description">
+      Building intelligent business solutions by combining Artificial Intelligence,
+      Salesforce, Agentforce, automation, analytics, and developer technologies.
+    </p>
+
+    <div class="chips">
+      <span class="chip">Salesforce AI</span>
+      <span class="chip">Agentforce</span>
+      <span class="chip">Apex</span>
+      <span class="chip">SOQL</span>
+      <span class="chip">CRM Analytics</span>
+      <span class="chip">AI & Automation</span>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="footer">
+      Building with AI. Exploring Salesforce. Creating intelligent solutions.
+    </div>
+  </main>
+</body>
+</html>
